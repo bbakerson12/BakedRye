@@ -1,0 +1,6 @@
+framework module Pods_BakeRyeBudgets {
+  umbrella header "Pods-BakeRyeBudgets-umbrella.h"
+
+  export *
+  module * { export * }
+}

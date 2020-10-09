@@ -1,0 +1,701 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		59E4AE532530FB0200AAB7CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E4AE522530FB0200AAB7CA /* AppDelegate.swift */; };
+		59E4AE552530FB0200AAB7CA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E4AE542530FB0200AAB7CA /* SceneDelegate.swift */; };
+		59E4AE572530FB0200AAB7CA /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E4AE562530FB0200AAB7CA /* CategoryViewController.swift */; };
+		59E4AE5A2530FB0200AAB7CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59E4AE582530FB0200AAB7CA /* Main.storyboard */; };
+		59E4AE5C2530FB0300AAB7CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59E4AE5B2530FB0300AAB7CA /* Assets.xcassets */; };
+		59E4AE5F2530FB0300AAB7CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59E4AE5D2530FB0300AAB7CA /* LaunchScreen.storyboard */; };
+		59E4AE6A2530FB0300AAB7CA /* BakeRyeBudgetsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E4AE692530FB0300AAB7CA /* BakeRyeBudgetsTests.swift */; };
+		59E4AE752530FB0300AAB7CA /* BakeRyeBudgetsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E4AE742530FB0300AAB7CA /* BakeRyeBudgetsUITests.swift */; };
+		59E4AEAB253109A400AAB7CA /* ExpenseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E4AEAA253109A400AAB7CA /* ExpenseViewController.swift */; };
+		59E4AEB025310A3A00AAB7CA /* SwipeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E4AEAF25310A3A00AAB7CA /* SwipeTableViewController.swift */; };
+		B84157443A18A5656AA5C810 /* Pods_BakeRyeBudgets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E90D86059A6BBE231D4B1086 /* Pods_BakeRyeBudgets.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		59E4AE662530FB0300AAB7CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59E4AE472530FB0200AAB7CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59E4AE4E2530FB0200AAB7CA;
+			remoteInfo = BakeRyeBudgets;
+		};
+		59E4AE712530FB0300AAB7CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59E4AE472530FB0200AAB7CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59E4AE4E2530FB0200AAB7CA;
+			remoteInfo = BakeRyeBudgets;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		59E4AE4F2530FB0200AAB7CA /* BakeRyeBudgets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BakeRyeBudgets.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		59E4AE522530FB0200AAB7CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		59E4AE542530FB0200AAB7CA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		59E4AE562530FB0200AAB7CA /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		59E4AE592530FB0200AAB7CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		59E4AE5B2530FB0300AAB7CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		59E4AE5E2530FB0300AAB7CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		59E4AE602530FB0300AAB7CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59E4AE652530FB0300AAB7CA /* BakeRyeBudgetsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BakeRyeBudgetsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		59E4AE692530FB0300AAB7CA /* BakeRyeBudgetsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BakeRyeBudgetsTests.swift; sourceTree = "<group>"; };
+		59E4AE6B2530FB0300AAB7CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59E4AE702530FB0300AAB7CA /* BakeRyeBudgetsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BakeRyeBudgetsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		59E4AE742530FB0300AAB7CA /* BakeRyeBudgetsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BakeRyeBudgetsUITests.swift; sourceTree = "<group>"; };
+		59E4AE762530FB0300AAB7CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59E4AEAA253109A400AAB7CA /* ExpenseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseViewController.swift; sourceTree = "<group>"; };
+		59E4AEAF25310A3A00AAB7CA /* SwipeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeTableViewController.swift; sourceTree = "<group>"; };
+		B543675D3B598B70BA719172 /* Pods-BakeRyeBudgets.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BakeRyeBudgets.release.xcconfig"; path = "Target Support Files/Pods-BakeRyeBudgets/Pods-BakeRyeBudgets.release.xcconfig"; sourceTree = "<group>"; };
+		E90D86059A6BBE231D4B1086 /* Pods_BakeRyeBudgets.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BakeRyeBudgets.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FED9AA9CD140F7D977075B82 /* Pods-BakeRyeBudgets.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BakeRyeBudgets.debug.xcconfig"; path = "Target Support Files/Pods-BakeRyeBudgets/Pods-BakeRyeBudgets.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		59E4AE4C2530FB0200AAB7CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B84157443A18A5656AA5C810 /* Pods_BakeRyeBudgets.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59E4AE622530FB0300AAB7CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59E4AE6D2530FB0300AAB7CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		59E4AE462530FB0200AAB7CA = {
+			isa = PBXGroup;
+			children = (
+				59E4AE512530FB0200AAB7CA /* BakeRyeBudgets */,
+				59E4AE682530FB0300AAB7CA /* BakeRyeBudgetsTests */,
+				59E4AE732530FB0300AAB7CA /* BakeRyeBudgetsUITests */,
+				59E4AE502530FB0200AAB7CA /* Products */,
+				8E1278AE47E52BF26DB7C88D /* Pods */,
+				65DA13D67518FEEDF934A051 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		59E4AE502530FB0200AAB7CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59E4AE4F2530FB0200AAB7CA /* BakeRyeBudgets.app */,
+				59E4AE652530FB0300AAB7CA /* BakeRyeBudgetsTests.xctest */,
+				59E4AE702530FB0300AAB7CA /* BakeRyeBudgetsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		59E4AE512530FB0200AAB7CA /* BakeRyeBudgets */ = {
+			isa = PBXGroup;
+			children = (
+				59E4AE522530FB0200AAB7CA /* AppDelegate.swift */,
+				59E4AE542530FB0200AAB7CA /* SceneDelegate.swift */,
+				59E4AEA32531077B00AAB7CA /* Models */,
+				59E4AE9B2531075700AAB7CA /* Controllers */,
+				59E4AEA22531076800AAB7CA /* Views */,
+				59E4AE5B2530FB0300AAB7CA /* Assets.xcassets */,
+				59E4AE5D2530FB0300AAB7CA /* LaunchScreen.storyboard */,
+				59E4AE602530FB0300AAB7CA /* Info.plist */,
+			);
+			path = BakeRyeBudgets;
+			sourceTree = "<group>";
+		};
+		59E4AE682530FB0300AAB7CA /* BakeRyeBudgetsTests */ = {
+			isa = PBXGroup;
+			children = (
+				59E4AE692530FB0300AAB7CA /* BakeRyeBudgetsTests.swift */,
+				59E4AE6B2530FB0300AAB7CA /* Info.plist */,
+			);
+			path = BakeRyeBudgetsTests;
+			sourceTree = "<group>";
+		};
+		59E4AE732530FB0300AAB7CA /* BakeRyeBudgetsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				59E4AE742530FB0300AAB7CA /* BakeRyeBudgetsUITests.swift */,
+				59E4AE762530FB0300AAB7CA /* Info.plist */,
+			);
+			path = BakeRyeBudgetsUITests;
+			sourceTree = "<group>";
+		};
+		59E4AE9B2531075700AAB7CA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				59E4AE562530FB0200AAB7CA /* CategoryViewController.swift */,
+				59E4AEAA253109A400AAB7CA /* ExpenseViewController.swift */,
+				59E4AEAF25310A3A00AAB7CA /* SwipeTableViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		59E4AEA22531076800AAB7CA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				59E4AE582530FB0200AAB7CA /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		59E4AEA32531077B00AAB7CA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		65DA13D67518FEEDF934A051 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E90D86059A6BBE231D4B1086 /* Pods_BakeRyeBudgets.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8E1278AE47E52BF26DB7C88D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FED9AA9CD140F7D977075B82 /* Pods-BakeRyeBudgets.debug.xcconfig */,
+				B543675D3B598B70BA719172 /* Pods-BakeRyeBudgets.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		59E4AE4E2530FB0200AAB7CA /* BakeRyeBudgets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59E4AE792530FB0300AAB7CA /* Build configuration list for PBXNativeTarget "BakeRyeBudgets" */;
+			buildPhases = (
+				CB0E3AD9BDCB8B857E0274D9 /* [CP] Check Pods Manifest.lock */,
+				59E4AE4B2530FB0200AAB7CA /* Sources */,
+				59E4AE4C2530FB0200AAB7CA /* Frameworks */,
+				59E4AE4D2530FB0200AAB7CA /* Resources */,
+				B3EF13E1A47CF9DEBC2A51A0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BakeRyeBudgets;
+			productName = BakeRyeBudgets;
+			productReference = 59E4AE4F2530FB0200AAB7CA /* BakeRyeBudgets.app */;
+			productType = "com.apple.product-type.application";
+		};
+		59E4AE642530FB0300AAB7CA /* BakeRyeBudgetsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59E4AE7C2530FB0300AAB7CA /* Build configuration list for PBXNativeTarget "BakeRyeBudgetsTests" */;
+			buildPhases = (
+				59E4AE612530FB0300AAB7CA /* Sources */,
+				59E4AE622530FB0300AAB7CA /* Frameworks */,
+				59E4AE632530FB0300AAB7CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59E4AE672530FB0300AAB7CA /* PBXTargetDependency */,
+			);
+			name = BakeRyeBudgetsTests;
+			productName = BakeRyeBudgetsTests;
+			productReference = 59E4AE652530FB0300AAB7CA /* BakeRyeBudgetsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		59E4AE6F2530FB0300AAB7CA /* BakeRyeBudgetsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59E4AE7F2530FB0300AAB7CA /* Build configuration list for PBXNativeTarget "BakeRyeBudgetsUITests" */;
+			buildPhases = (
+				59E4AE6C2530FB0300AAB7CA /* Sources */,
+				59E4AE6D2530FB0300AAB7CA /* Frameworks */,
+				59E4AE6E2530FB0300AAB7CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59E4AE722530FB0300AAB7CA /* PBXTargetDependency */,
+			);
+			name = BakeRyeBudgetsUITests;
+			productName = BakeRyeBudgetsUITests;
+			productReference = 59E4AE702530FB0300AAB7CA /* BakeRyeBudgetsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		59E4AE472530FB0200AAB7CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					59E4AE4E2530FB0200AAB7CA = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					59E4AE642530FB0300AAB7CA = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 59E4AE4E2530FB0200AAB7CA;
+					};
+					59E4AE6F2530FB0300AAB7CA = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 59E4AE4E2530FB0200AAB7CA;
+					};
+				};
+			};
+			buildConfigurationList = 59E4AE4A2530FB0200AAB7CA /* Build configuration list for PBXProject "BakeRyeBudgets" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 59E4AE462530FB0200AAB7CA;
+			productRefGroup = 59E4AE502530FB0200AAB7CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				59E4AE4E2530FB0200AAB7CA /* BakeRyeBudgets */,
+				59E4AE642530FB0300AAB7CA /* BakeRyeBudgetsTests */,
+				59E4AE6F2530FB0300AAB7CA /* BakeRyeBudgetsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		59E4AE4D2530FB0200AAB7CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59E4AE5F2530FB0300AAB7CA /* LaunchScreen.storyboard in Resources */,
+				59E4AE5C2530FB0300AAB7CA /* Assets.xcassets in Resources */,
+				59E4AE5A2530FB0200AAB7CA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59E4AE632530FB0300AAB7CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59E4AE6E2530FB0300AAB7CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B3EF13E1A47CF9DEBC2A51A0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BakeRyeBudgets/Pods-BakeRyeBudgets-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BakeRyeBudgets/Pods-BakeRyeBudgets-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BakeRyeBudgets/Pods-BakeRyeBudgets-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB0E3AD9BDCB8B857E0274D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BakeRyeBudgets-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		59E4AE4B2530FB0200AAB7CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59E4AE572530FB0200AAB7CA /* CategoryViewController.swift in Sources */,
+				59E4AEAB253109A400AAB7CA /* ExpenseViewController.swift in Sources */,
+				59E4AE532530FB0200AAB7CA /* AppDelegate.swift in Sources */,
+				59E4AE552530FB0200AAB7CA /* SceneDelegate.swift in Sources */,
+				59E4AEB025310A3A00AAB7CA /* SwipeTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59E4AE612530FB0300AAB7CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59E4AE6A2530FB0300AAB7CA /* BakeRyeBudgetsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59E4AE6C2530FB0300AAB7CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59E4AE752530FB0300AAB7CA /* BakeRyeBudgetsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		59E4AE672530FB0300AAB7CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59E4AE4E2530FB0200AAB7CA /* BakeRyeBudgets */;
+			targetProxy = 59E4AE662530FB0300AAB7CA /* PBXContainerItemProxy */;
+		};
+		59E4AE722530FB0300AAB7CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59E4AE4E2530FB0200AAB7CA /* BakeRyeBudgets */;
+			targetProxy = 59E4AE712530FB0300AAB7CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		59E4AE582530FB0200AAB7CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59E4AE592530FB0200AAB7CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		59E4AE5D2530FB0300AAB7CA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59E4AE5E2530FB0300AAB7CA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		59E4AE772530FB0300AAB7CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		59E4AE782530FB0300AAB7CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		59E4AE7A2530FB0300AAB7CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FED9AA9CD140F7D977075B82 /* Pods-BakeRyeBudgets.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6Y62C85QQC;
+				INFOPLIST_FILE = BakeRyeBudgets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AlexBaker.BakeRyeBudgets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		59E4AE7B2530FB0300AAB7CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B543675D3B598B70BA719172 /* Pods-BakeRyeBudgets.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6Y62C85QQC;
+				INFOPLIST_FILE = BakeRyeBudgets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AlexBaker.BakeRyeBudgets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		59E4AE7D2530FB0300AAB7CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6Y62C85QQC;
+				INFOPLIST_FILE = BakeRyeBudgetsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AlexBaker.BakeRyeBudgetsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BakeRyeBudgets.app/BakeRyeBudgets";
+			};
+			name = Debug;
+		};
+		59E4AE7E2530FB0300AAB7CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6Y62C85QQC;
+				INFOPLIST_FILE = BakeRyeBudgetsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AlexBaker.BakeRyeBudgetsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BakeRyeBudgets.app/BakeRyeBudgets";
+			};
+			name = Release;
+		};
+		59E4AE802530FB0300AAB7CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6Y62C85QQC;
+				INFOPLIST_FILE = BakeRyeBudgetsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AlexBaker.BakeRyeBudgetsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BakeRyeBudgets;
+			};
+			name = Debug;
+		};
+		59E4AE812530FB0300AAB7CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6Y62C85QQC;
+				INFOPLIST_FILE = BakeRyeBudgetsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AlexBaker.BakeRyeBudgetsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BakeRyeBudgets;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		59E4AE4A2530FB0200AAB7CA /* Build configuration list for PBXProject "BakeRyeBudgets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59E4AE772530FB0300AAB7CA /* Debug */,
+				59E4AE782530FB0300AAB7CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59E4AE792530FB0300AAB7CA /* Build configuration list for PBXNativeTarget "BakeRyeBudgets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59E4AE7A2530FB0300AAB7CA /* Debug */,
+				59E4AE7B2530FB0300AAB7CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59E4AE7C2530FB0300AAB7CA /* Build configuration list for PBXNativeTarget "BakeRyeBudgetsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59E4AE7D2530FB0300AAB7CA /* Debug */,
+				59E4AE7E2530FB0300AAB7CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59E4AE7F2530FB0300AAB7CA /* Build configuration list for PBXNativeTarget "BakeRyeBudgetsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59E4AE802530FB0300AAB7CA /* Debug */,
+				59E4AE812530FB0300AAB7CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 59E4AE472530FB0200AAB7CA /* Project object */;
+}
