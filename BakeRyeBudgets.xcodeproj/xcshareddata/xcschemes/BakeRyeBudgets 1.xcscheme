@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E89EF3FEE81B33D5D4C7A58C7CD9D7EE"
-               BuildableName = "Pods_BakeRyeBudgets.framework"
-               BlueprintName = "Pods-BakeRyeBudgets"
-               ReferencedContainer = "container:Pods.xcodeproj">
+               BlueprintIdentifier = "59E4AE4E2530FB0200AAB7CA"
+               BuildableName = "BakeRyeBudgets.app"
+               BlueprintName = "BakeRyeBudgets"
+               ReferencedContainer = "container:BakeRyeBudgets.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -40,6 +40,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "59E4AE4E2530FB0200AAB7CA"
+            BuildableName = "BakeRyeBudgets.app"
+            BlueprintName = "BakeRyeBudgets"
+            ReferencedContainer = "container:BakeRyeBudgets.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -47,6 +57,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "59E4AE4E2530FB0200AAB7CA"
+            BuildableName = "BakeRyeBudgets.app"
+            BlueprintName = "BakeRyeBudgets"
+            ReferencedContainer = "container:BakeRyeBudgets.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

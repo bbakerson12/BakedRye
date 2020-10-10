@@ -3,10 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5929A21225315AC400747427 /* ExpenseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5929A21025315AC400747427 /* ExpenseTableViewCell.swift */; };
+		5929A21325315AC400747427 /* ExpenseTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5929A21125315AC400747427 /* ExpenseTableViewCell.xib */; };
+		595016B825311666009FE19A /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595016B725311666009FE19A /* Category.swift */; };
+		595016C925311A2E009FE19A /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595016C825311A2E009FE19A /* Expense.swift */; };
 		59E4AE532530FB0200AAB7CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E4AE522530FB0200AAB7CA /* AppDelegate.swift */; };
 		59E4AE552530FB0200AAB7CA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E4AE542530FB0200AAB7CA /* SceneDelegate.swift */; };
 		59E4AE572530FB0200AAB7CA /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E4AE562530FB0200AAB7CA /* CategoryViewController.swift */; };
@@ -38,6 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5929A21025315AC400747427 /* ExpenseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseTableViewCell.swift; sourceTree = "<group>"; };
+		5929A21125315AC400747427 /* ExpenseTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExpenseTableViewCell.xib; sourceTree = "<group>"; };
+		595016B725311666009FE19A /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		595016C825311A2E009FE19A /* Expense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
 		59E4AE4F2530FB0200AAB7CA /* BakeRyeBudgets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BakeRyeBudgets.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59E4AE522530FB0200AAB7CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		59E4AE542530FB0200AAB7CA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -85,6 +93,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		595016BC2531166B009FE19A /* Data Models */ = {
+			isa = PBXGroup;
+			children = (
+				595016B725311666009FE19A /* Category.swift */,
+				595016C825311A2E009FE19A /* Expense.swift */,
+			);
+			path = "Data Models";
+			sourceTree = "<group>";
+		};
 		59E4AE462530FB0200AAB7CA = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				59E4AE522530FB0200AAB7CA /* AppDelegate.swift */,
+				595016BC2531166B009FE19A /* Data Models */,
 				59E4AE542530FB0200AAB7CA /* SceneDelegate.swift */,
 				59E4AEA32531077B00AAB7CA /* Models */,
 				59E4AE9B2531075700AAB7CA /* Controllers */,
@@ -154,6 +172,8 @@
 			isa = PBXGroup;
 			children = (
 				59E4AE582530FB0200AAB7CA /* Main.storyboard */,
+				5929A21025315AC400747427 /* ExpenseTableViewCell.swift */,
+				5929A21125315AC400747427 /* ExpenseTableViewCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -179,7 +199,6 @@
 				FED9AA9CD140F7D977075B82 /* Pods-BakeRyeBudgets.debug.xcconfig */,
 				B543675D3B598B70BA719172 /* Pods-BakeRyeBudgets.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -288,6 +307,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5929A21325315AC400747427 /* ExpenseTableViewCell.xib in Resources */,
 				59E4AE5F2530FB0300AAB7CA /* LaunchScreen.storyboard in Resources */,
 				59E4AE5C2530FB0300AAB7CA /* Assets.xcassets in Resources */,
 				59E4AE5A2530FB0200AAB7CA /* Main.storyboard in Resources */,
@@ -357,11 +377,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5929A21225315AC400747427 /* ExpenseTableViewCell.swift in Sources */,
+				595016C925311A2E009FE19A /* Expense.swift in Sources */,
 				59E4AE572530FB0200AAB7CA /* CategoryViewController.swift in Sources */,
 				59E4AEAB253109A400AAB7CA /* ExpenseViewController.swift in Sources */,
 				59E4AE532530FB0200AAB7CA /* AppDelegate.swift in Sources */,
 				59E4AE552530FB0200AAB7CA /* SceneDelegate.swift in Sources */,
 				59E4AEB025310A3A00AAB7CA /* SwipeTableViewController.swift in Sources */,
+				595016B825311666009FE19A /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -545,7 +568,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.AlexBaker.BakeRyeBudgets;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AlexBaker.BakedRyeBudgets;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -565,7 +588,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.AlexBaker.BakeRyeBudgets;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AlexBaker.BakedRyeBudgets;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

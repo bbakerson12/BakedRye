@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E89EF3FEE81B33D5D4C7A58C7CD9D7EE"
-               BuildableName = "Pods_BakeRyeBudgets.framework"
-               BlueprintName = "Pods-BakeRyeBudgets"
+               BlueprintIdentifier = "782725687624F8665247B84AB581BEB1"
+               BuildableName = "RealmSwift.framework"
+               BlueprintName = "RealmSwift"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -47,6 +47,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "782725687624F8665247B84AB581BEB1"
+            BuildableName = "RealmSwift.framework"
+            BlueprintName = "RealmSwift"
+            ReferencedContainer = "container:Pods.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
